@@ -26,7 +26,6 @@ h1 {
  margin-bottom: 10px;
 }
 h2 {
- background-color: #bbffe9;
  margin-bottom: 10px;
  margin-top: 20px;
 }
@@ -111,10 +110,6 @@ button:hover {
 }
 .dark-mode .card2{
  background-color:#808080;
- color:rgb(255, 255, 255)
-}
-.dark-mode h2{
- background-color:#C0C0C0;
  color:rgb(255, 255, 255)
 }
 .dark-mode th{
