@@ -94,3 +94,34 @@ button:hover {
  border-radius: 4px;
  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+.dark-mode {
+ background-color:#000000;
+ color:rgb(255, 255, 255)
+}
+.hidden {
+ display:none;
+}
+.dark-mode .card{
+ background-color:#808080;
+ color:rgb(255, 255, 255)
+}
+.dark-mode .card1{
+ background-color:#808080;
+ color:rgb(255, 255, 255)
+}
+.dark-mode .card2{
+ background-color:#808080;
+ color:rgb(255, 255, 255)
+}
+.dark-mode h2{
+ background-color:#C0C0C0;
+ color:rgb(255, 255, 255)
+}
+.dark-mode th{
+ background-color:#C0C0C0;
+ color:rgb(255, 255, 255)
+}
+.dark-mode button{
+ background-color:#C0C0C0;
+ color:rgb(255, 255, 255)
+}

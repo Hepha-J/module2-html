@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
 <body>
     <header class="container">
+        <button id="themeToggle">Toggle Dark Mode</button>
         <section class="card">
             <h1>Jazir Uzman I. Sambajon</h1>
             <p>IT Student | Web Systems and Technologies</p>
@@ -29,8 +30,9 @@
                 
 
             </section>
-            
-            <section class="card1">
+
+            <button id="toggleSkills">Show/Hide Skills</button>
+            <section class="card1" id="skillsSection">
                 <h2>Skills</h2>
                     <ul>
                         <li>HTML</li>
@@ -52,6 +54,7 @@
                         </li>
                     </ul>
             </section>
+            
             <section class="card">
                 <h2>Education</h2>
                 <style>
@@ -89,10 +92,10 @@
             <section class="card">
                 <h2>Contact Me</h2>
                 <form>
-                    <input type="text" placeholder="Name"><br><br>
-                    <input type="email" placeholder="Email"><br><br>
+                    <input type="text" id="name" placeholder="Name"><br><br>
+                    <input type="email" id="email" placeholder="Email"><br><br>
                     <textarea placeholder="Message"></textarea><br><br>
-                    <button type="submit">Send</button>
+                    <button type="submit" id="submitBtn">Send</button>
                 </form>
             </section>
     </main>
@@ -101,6 +104,7 @@
         <p>&copy; 2026 Jazir Uzman I. Sambajon. All rights reserved.</p>
     </footer>
 
+<script src="js/script.js"></script>
 
 </body>
 </html>
