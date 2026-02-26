@@ -4,7 +4,6 @@ function Skills() {
   const [visible, setVisible] = useState(true);
 
   return (
-    <div class="container">
     <section className="card1" id="skillsSection">
       <button onClick={() => setVisible(!visible)}>
         Show/Hide Skills
@@ -37,7 +36,6 @@ function Skills() {
         </>
       )}
     </section>
-    </div>
   );
 }
 
