@@ -11,7 +11,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={darkMode ? "dark-mode" : ""}>
+    <body className={darkMode ? "dark-mode" : ""}>
       <button onClick={() => setDarkMode(!darkMode)}>
         {darkMode ? "Toggle Light Mode" : "Toggle Dark Mode"}
       </button>
@@ -21,7 +21,7 @@ function App() {
       <Skills />
       <Education />
       <Contact />
-    </div>
+    </body>
   );
 }
 

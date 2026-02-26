@@ -1,5 +1,6 @@
 function Contact() {
   return (
+    <div className="container">
     <section className="card">
       <h2>Contact Me</h2>
 
@@ -37,6 +38,7 @@ function Contact() {
 
       </form>
     </section>
+    </div>
   );
 }
 
