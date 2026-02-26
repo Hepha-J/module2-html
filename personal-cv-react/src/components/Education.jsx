@@ -1,6 +1,5 @@
 function Education() {
     return (
-    <div class="container>
       <section class="card">
                 <h2>Education</h2>
                 <table>
@@ -31,7 +30,6 @@ function Education() {
                     </tr>
                 </table>
             </section>
-        </div>
     );
 }
   
