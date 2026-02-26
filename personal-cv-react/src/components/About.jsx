@@ -1,10 +1,12 @@
+import profileImg from "../assets/images/profile.jpg";
+
 function About() {
   return (
     <section className="card">
       <h2>About Me</h2>
 
       <img
-        src="src/assets/images/profile.jpg"
+        src={profileImg}
         alt="Profile photo"
       />
 
