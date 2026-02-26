@@ -2,7 +2,6 @@ import profileImg from "../assets/images/profile.jpg";
 
 function About() {
   return (
-    <div class="container">
     <section className="card">
       <h2>About Me</h2>
 
@@ -30,7 +29,6 @@ function About() {
         </a>
       </p>
     </section>
-    </div>
   );
 }
 
