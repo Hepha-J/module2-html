@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # This tells GitHub to look in your React build folder
-          path: './personal-cv-react/dist'
+          path: './personal-cv-react/build'
 
       - name: Deploy to GitHub Pages
         id: deployment
