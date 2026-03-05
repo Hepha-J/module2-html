@@ -1,10 +1,9 @@
 import profileImg from "../assets/images/profile.jpg";
+import Card from "./Card";
 
 function About() {
   return (
-    <div className="container">
-    <section className="card">
-      <h2>About Me</h2>
+    <Card title="About Me">
 
       <img
         src={profileImg}
@@ -29,8 +28,7 @@ function About() {
           https://github.com/Hepha-J
         </a>
       </p>
-    </section>
-    </div>
+    </Card>
   );
 }
 
